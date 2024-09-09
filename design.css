@@ -1,0 +1,450 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+  *
+  {
+    padding: 0;
+    margin: 0px 0 0 0;
+  }
+body
+{
+    overflow-y: scroll;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+}
+/* header
+{
+ margin: left 74px; ;
+ position: fixed;
+} */
+.logo
+{
+    width: 16.25rem;
+    /* padding-left: 74px; */
+    padding-top: 10px;
+   
+}
+.nav-list
+{
+    list-style-type: none;
+    font-family: "Roboto", sans-serif ;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.nav-list li{
+float: left;
+    padding-right:33px;
+    cursor: pointer;
+   
+}
+.nav-list li .li-logo
+{
+    padding-right: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+header
+{
+    margin-left: 90px;
+    margin-right: 56px;
+    margin-top: 14px;
+
+}
+  
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+.image-div
+{
+    width: 21%;
+}
+.navigationBar
+{
+    width: 45%;
+    padding-top: 24px;
+    padding-left: 48px;
+
+}
+.loginbtn
+{
+font-size: 14px;
+padding: 1px 1px 1px 1px;
+}
+.button-div
+{
+    width: 24.23rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 4px;
+}
+.loginbtn
+{     margin-right: 10px;
+    font-size: 13px;
+    padding: 8px 26px 8px 26px;
+    line-height: 1.5rem;
+    background-image: linear-gradient(90deg, #790975 0%, #ff00d7 100%);
+    border: none;
+   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.createbtn
+{
+    font-size: 13px;
+    padding: 8px 26px 8px 26px;
+    line-height: 1.5rem;
+    background-image: linear-gradient(90deg, #790975 0%, #ff00d7 100%);
+    border: none;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.head-divider
+{        margin-top: 6px;
+    box-shadow: 0px 5px 12px 0px rgb(0 0 0 / 47%);
+    background: linear-gradient(90deg, #ffd100 0%, red 38%, #f979e4 38%, #b300ff 70%, #00ff10 70%, #05830d 90%, #0a62f6 90%, #0b0583 100%);
+    width: 100%;
+    height: 0.97rem;
+    position: relative;
+}
+.sticky
+{
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #ffffff;
+} 
+.title
+{
+    width: 100%;
+    height: 194px;
+    line-height: 4.5rem;
+    background: linear-gradient(90deg, #0000a3 0%, #4675ff 100%);
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding-top: 3.21rem;    
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.section
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 114px;
+}
+img
+{
+    width: 100%;
+  
+}
+.homeimg
+{
+     display: flex;
+    flex-direction: column; 
+    height: 310px;
+
+}
+.homedivider
+{    height: 14px;
+    width: 150px;
+    background-image: linear-gradient(90deg, magenta 0%, purple 100%);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.8rem;
+    margin-top: 0.02rem;
+
+}
+.Featured-Campaigns
+{
+    font-size: 35px;
+    color: #00008b;
+    display: flex;
+    margin-bottom: 26.2px;
+    margin-left: 20px;
+    /* align-items: flex-start;*/
+   
+}
+.article
+{
+    margin-left: 148px;
+    margin-right: 164px;
+
+}
+.campaign-row
+{
+    display: flex;
+    flex-flow: row;
+}
+.campaingn1
+{     display: inline-block;
+    min-width: 199px;
+    min-height: 197px;
+    flex-grow: 0;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background: linear-gradient(90deg, darkblue 0%, blue 100%);
+}
+.leftarrow
+{
+    color: pink;
+    margin: 121px 4px 0 5px;
+  
+}
+.rightarrow
+{
+    color: pink;
+    margin: 121px 0 0 5px;
+}
+.arrow
+{
+    -webkit-text-stroke: 2px white;
+}
+.campaign-col1
+{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, darkblue 0%, blue 100%);
+    display: inline-block;
+    min-width: 205px;
+    height: 208px;
+    flex-grow: 0;
+    margin: 5px;
+    padding: 0.299rem 0.32rem 0.28rem 0.31rem;
+    cursor: pointer;
+}
+.campaign-col2
+{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, darkblue 0%, blue 100%);
+    display: inline-block;
+    min-width: 205px;
+    height: 205.9px;
+    flex-grow: 0;
+    margin: 5px;
+    padding: 0.299rem 0.32rem 0.28rem 0.31rem;
+    cursor: pointer;
+}
+.campaign-col3
+{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, darkblue 0%, blue 100%);
+    display: inline-block;
+    width: 204.5px;
+    height: 206px;
+    flex-grow: 0;
+    margin: 5px;
+    padding: 0.299rem 0.32rem 0.28rem 0.31rem;
+    cursor: pointer;
+}
+.caption
+{
+    line-height: 1.5rem;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    padding-top: 11px;
+    
+}
+.caption2
+{
+    line-height: 1.5rem;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    padding-top: 9px;
+    
+}
+
+.explorebtn
+{
+    font-size: 13px;
+    padding: 9px 26px 7.5px 25.7px;
+    line-height: 1.5rem;
+    background: linear-gradient(90deg, red 0%, orange 100%);
+    border: none;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.greenDivider
+{
+    background: linear-gradient(90deg, green 0%, #39ff14 100%);
+    width: 149px;
+    height: 15px;
+}
+.home-feature-container
+{
+    display: flex;
+    flex-flow: row;
+}
+.item-title
+{
+    color: #39b54a;
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.triangle-down
+{
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    width: 100%;
+    height: 220px;
+    color: #ffffff;
+    background: linear-gradient(90deg, red 0%, orange 100%);
+    
+}
+.triangle-down-green
+{
+    background: linear-gradient(90deg, green 0%, #39ff14 100%);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    width: 100%;
+    height: 220px;
+    color: white;
+}
+.triangle-down-pink
+{
+    background: linear-gradient(90deg, purple 0%, magenta 100%);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    width: 100%;
+    height: 220px;
+    color: white;  
+}
+.triangle-down-blue
+{    background: linear-gradient(90deg, #0000a3 0%, #4675ff 100%);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    width: 100%;
+    height: 220px;
+    color: white;  
+}
+.msg
+{
+    background: linear-gradient(90deg, purple 0%, magenta 100%);
+    margin-top: 24px;
+    padding-top: 57px;
+    height: 211px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+.founder-msg
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 48px;
+}
+.founder-p
+{
+    font-weight: 300;
+    color: white;
+    line-height: 1.5rem;
+    padding-top: 7px;
+
+}
+.blueDivider
+{
+    background: linear-gradient(90deg, #0000a3 0%, #4675ff 100%);
+    width: 149px;
+    height: 15px;
+}
+.organizations
+{
+    display: flex;
+    flex-flow: row;
+    height: 166px;
+    margin-top: 23.4px;
+    margin-left: 4.7px;
+    margin-right: 4px;
+}
+.footer
+{
+    background: linear-gradient(90deg, #0000a3 0%, #4675ff 100%);
+    margin-bottom: -19px;
+}
+.footer-container
+{
+    margin-left: 192px;
+    margin-right: 50px;
+    padding-top: 30.5px;
+    display: flex;
+    flex-flow: row;
+
+}
+.footerimg
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 22.1px;
+    margin-left: 46px;
+    padding-top: 3px;
+}
+.footerlink li
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 25.96px;
+}
+.footerlink{
+    width: 26.3%;
+}
+.footericons
+{ 
+    margin-top: 46.1px;
+    margin-left: 205.7px;
+    margin-right: 205.7px;
+   
+}
+.icons
+{
+   
+    margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.footoricon-container
+{     border-top: 0.5px solid white;
+    padding-top: 34px;
+    padding-bottom: 63px;
+    padding-left: 1.1px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.copyrights
+{
+    padding: 2px 0px 0px 71px;
+}
+.tooltip-title
+{
+    line-height: 1.5rem;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    padding-top: 11px;
+}
