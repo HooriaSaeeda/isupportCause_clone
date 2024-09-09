@@ -20,18 +20,15 @@ This project is a practice clone of the iSupportCause Profile Picture Campaign. 
 
 ### Screenshot
 
-- **Instagram Clone : Desktop design**
+- **iSupportCause : Desktop design**
 
-![](./instaAssest/insta.png)
+![](./isuppot.png)
 
-- **Instagram Clone : Mobile design**
-
-![](./instaAssest/insta-mobile.png)
 
 ### Links
 
 - Solution URL: [https://github.com/hoor23/isupportCause_clone.git](https://github.com/hoor23/isupportCause_clone.git)
-- Live Site URL: [https://hoor23.github.io/Instagram_clone/](https://hoor23.github.io/Instagram_clone/)
+- Live Site URL: [https://hoor23.github.io/isupportCause_clone/](https://hoor23.github.io/isupportCause_clone/)
 
 ## My process
 
